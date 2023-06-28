@@ -1,15 +1,18 @@
 ![фото](./img/cvphoto.jpg)
 ## Anna Melnik
 #### Junior Frontend Developer
+
 ---
+
 ### Contacts:
 **Phone:** +7 964 622 38 91
 **Telegram:** @andmelnik
-**Discorde:** andmelnik
+**Discord:** andmelnik
 **LinkedIn:** [anyamelnik](https://www.linkedin.com/in/anyamelnik/)
 **E-mail** anya.melnik.de@gmail.com
 
 ---
+
 ### Biography
 I have graduated from the Financial University under the Government of the Russian Federation and currently have a degree in law. During my education I spent half a year studying abroad in the Università di Bologna and for me it was a thrilling experience.
 
@@ -32,6 +35,7 @@ I believe, that my ability to learn and my purposefulness will help me to acuire
 * problem-solving
 * communication
 * time management and responsibility
+
 ---
 
 ### Code example
@@ -53,6 +57,7 @@ for (let i = 0; i < dayInMonth.length; i++) {
 ### Education
 * Udemy course for Fronted developers (in progress)
 * RS School for Frontend developers (in progress)
+
 ---
 
 ### Languages 
