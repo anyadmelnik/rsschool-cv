@@ -6,9 +6,13 @@
 
 ### Contacts:
 **Phone:** +7 964 622 38 91
+
 **Telegram:** @andmelnik
+
 **Discord:** andmelnik
+
 **LinkedIn:** [anyamelnik](https://www.linkedin.com/in/anyamelnik/)
+
 **E-mail** anya.melnik.de@gmail.com
 
 ---
