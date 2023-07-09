@@ -1,4 +1,3 @@
 # rsschool-cv
-
-[link to CV](https://anyadmelnik.github.io/rsschool-cv/cv)
-[link to HTML-CSS CV](https://anyadmelnik.github.io/rsschool-cv/)
+[CV Markdown](https://anyadmelnik.github.io/rsschool-cv/cv)
+[CV HTML/CSS 3](https://anyadmelnik.github.io/rsschool-cv/)
