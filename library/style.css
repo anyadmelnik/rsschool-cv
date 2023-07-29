@@ -4,10 +4,11 @@ body {
     width: 1440px;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, ul, li, input {
     margin: 0;
     padding: 0;
 }
+
 
 .header-nav {
     display: flex;
@@ -22,6 +23,8 @@ h1, h2, h3, h4, h5, h6 {
 .logo {
     font-family: 'Forum', serif;
     font-size: 30px;
+    line-height: 50px;
+    letter-spacing: 2px;
     color: #FFFFFF;
 
 }
@@ -36,6 +39,8 @@ h1, h2, h3, h4, h5, h6 {
     list-style: none;
     padding-right: 30px;
     font-family: 'Inter', serif;
+    line-height: 40px;
+    letter-spacing: 2px;
 }
 
 .nav-list-item:nth-child(5) {
@@ -45,6 +50,8 @@ h1, h2, h3, h4, h5, h6 {
 .main-header {
     font-family: 'Forum', 'serif';
     font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 3px;
 }
 
 .section-banner {
@@ -80,6 +87,10 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 20px;
 }
 
+.section-welcome, .section-favourites, .section-coffee-shop, .section-our-contact {
+  margin: 0 20px 40px 20px;
+}
+
 .h2-decor {
     width: 50px;
     height: 1px;
@@ -91,12 +102,12 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
     font-family: 'Inter', serif;
     font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 2px;
 }
 
 .about-container-img {
     display: flex;
-    margin-left: 20px;
-    margin-right: 2px;
     margin-bottom: 40px;
 }
 
@@ -111,6 +122,7 @@ h1, h2, h3, h4, h5, h6 {
 .scroll-container {
     display: flex;
     justify-content: center;
+    margin-bottom: 40px;
 }
 
 .scroll-list {
@@ -129,3 +141,158 @@ h1, h2, h3, h4, h5, h6 {
 .scroll-list:last-child {
     margin: 0;
 }
+
+.header-level-four {
+    font-family: 'Inter', serif;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+}
+
+.radio-list {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.radio-list-item {
+    list-style: none;
+    margin-right: 90px;
+}
+
+.radio-list-item:last-child {
+    margin-right: 0;
+}
+
+.input-point {
+    margin-right: 20px;
+    accent-color: #0C0C0E;
+}
+
+.favourites-books-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.book-container {
+    position: relative;
+    width: 355px;
+    min-height: 525px;
+    padding: 15px 175px 15px 20px;
+    margin-bottom: 40px;
+    margin-right: 40px;
+    border: 1px solid #000000;
+}
+
+.book-heading-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.book-heading-underline {
+    width: 60px;
+    height: 1px;
+    background-color: #BB945F;
+}
+
+.header-level-five {
+    font-family: 'Forum', serif;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.header-level-six {
+    font-family: 'Inter', serif;
+    font-size: 15px;
+    line-height: 40px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.book-paragraph {
+    font-family: 'Inter', serif;
+    font-size: 15px;
+    line-height: 40px;
+    letter-spacing: 2px;
+}
+
+.button-buy {
+    cursor: pointer;
+    padding: 9px 27px;
+    background-color: white;
+    border-color: #0C0C0E;
+}
+
+.button-buy:hover {
+    background-color: #0C0C0E;
+    color: white;
+}
+
+.book-image {
+    width: 200px;
+    position: absolute;
+    right: -40px;
+    bottom: -1px;
+}
+
+.coffeshop-descr {
+    font-family: 'Inter', serif;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.lists-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.coffee-list-heading, .desserts-list-heading {
+    font-family: 'Forum', serif;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: 2px;
+    color: #BB945F;
+    margin-bottom: 40px;
+}
+
+.desserts-list-heading {
+    text-align: right;
+}
+
+.coffee-list {
+    width: 438px;
+    font-family: 'Inter', serif;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 2px;
+}
+
+.coffee-list-item {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    margin-bottom: 40px;
+}
+
+.coffee-menu-item {
+    width: 200px;
+}
+
+.desserts-menu-item {
+    width: 200px;
+    text-align: right;
+}
+
+.coffee-underline {
+    width: 100px;
+    height: 1px;
+    background-color: #BB945F;
+}
+
+
