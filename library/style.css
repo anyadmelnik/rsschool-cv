@@ -4,7 +4,7 @@ body {
     width: 1440px;
 }
 
-h1, h2, h3, h4, h5, h6, ul, li, input {
+h1, h2, h3, h4, h5, h6, ul, li, input, p, form {
     margin: 0;
     padding: 0;
 }
@@ -87,7 +87,7 @@ h1, h2, h3, h4, h5, h6, ul, li, input {
     margin-bottom: 20px;
 }
 
-.section-welcome, .section-favourites, .section-coffee-shop, .section-our-contact {
+.section-welcome, .section-favourites, .section-coffee-shop, .section-our-contact, .members-section {
   margin: 0 20px 40px 20px;
 }
 
@@ -295,4 +295,88 @@ h1, h2, h3, h4, h5, h6, ul, li, input {
     background-color: #BB945F;
 }
 
+.our-contact-container {
+    display: flex;
+    justify-content: space-between;
+}
 
+.header-level-four-contact {
+    font-family: 'Inter', serif;
+    margin-bottom: 40px;
+}
+
+.contacts-right-block {
+    width: 696px;
+}
+
+.our-contacts-descr {
+    font-family: 'Inter', serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.our-contacts-descr-last {
+    margin-bottom: 40px;
+}
+
+.header-level-four-staff {
+    margin-bottom: 20px;
+}
+
+.header-level-three {
+    font-family: 'Inter', serif;
+    font-size: 30px;
+    letter-spacing: 2%;
+    margin-bottom: 20px;
+}
+
+.members-containers {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.form-container {
+    border: 3px solid #BB945F;
+}
+
+.form-inner-container {
+    width: 560px;
+    padding: 20px 20px 25px;
+    margin: 20px;
+    background-color: #BB945F;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-name {
+    margin-bottom: 25px;
+}
+
+.input-name, .input-number {
+    width: 520px;
+    height: 66px;
+    border-radius: 10px;
+    border: none;
+}
+.input-name[placeholder], .input-number[placeholder] {
+    padding-left: 20px;
+    font-family: 'Forum', serif;
+    font-size: 30px;
+    letter-spacing: 2%;
+}
+
+.btn-check-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.check-button {
+    font-family: 'Inter', serif;
+    padding: 10px 40px;
+    border: 1px solid #0C0C0E;
+    border-radius: 2px;
+    background-color: #FFFFFF;
+}
